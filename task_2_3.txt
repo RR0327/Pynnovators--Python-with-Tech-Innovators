@@ -1,0 +1,133 @@
+Task
+----
+Task 1 — 
+Given:
+txt = "Hello Python Programming"
+Do the following:
+1.	Slice the first 5 characters
+2.	Slice the last 11 characters
+3.	Convert the entire string to uppercase and lowercase
+4.	Replace "Python" with "AI"
+5.	Concatenate "!" at the end
+6.	Use string formatting: "Welcome, {}!".format("(yourname)")
+7.	Use escape characters to print:
+8.	Hello "Python" World
+9.	Use at least 5 string methods (strip, split, find, endswith, join)
+
+Task 2 —
+Write code that:
+1.	Checks if a number is even using comparison + logical operators
+2.	Demonstrates identity operators (is, is not)
+3.	Demonstrates membership operators (in, not in)
+4.	Uses all arithmetic operators
+5.	Uses bitwise operators (&, |, ^, <<, >>)
+6.	Shows operator precedence with an expression like:
+7.	result = 5 + 3 * 2 ** 2
+
+Task 3 —
+Start with:
+fruits = ["apple", "banana", "cherry"]
+Perform:
+1.	Access the first and last items
+2.	Change "banana" to "mango"
+3.	Add "orange" using append()
+4.	Add "grape" at index 1
+5.	Remove "apple"
+6.	Loop and print all fruits
+7.	Create a new list of fruits with length > 5 using list comprehension
+8.	Sort the list
+9.	Copy the list
+10.	Join the copy with another list
+
+Task 4 — 
+Given:
+t = ("red", "blue", "green")
+Complete:
+1.	Access second item
+2.	Try to update an item (expect error)
+3.	Convert tuple → list → modify → tuple
+4.	Unpack tuple into 3 variables
+5.	Loop over the tuple
+6.	Join two tuples
+
+Task 5 —
+Start with:
+s = {"a", "b", "c"}
+Do:
+1.	Access an item using loop
+2.	Add items (add, update)
+3.	Remove items (remove, discard, pop)
+4.	Join two sets (union, intersection)
+5.	Create a frozenset and try to modify it
+Task 6 — 
+Given:
+student = {
+    "name": "name",
+    "age": 23,
+    "dept": "CSE",
+    "skills": ["Python", "Django"]
+}
+Perform:
+1.	Access "name"
+2.	Change "age"
+3.	Add "cgpa": 3.50
+4.	Remove "dept"
+5.	Loop keys
+6.	Loop values
+7.	Loop key–value pairs
+8.	Copy dictionary
+9.	Create a nested dictionary of 3 students
+
+Task 7 — 
+Write code to check a number:
+1.	If number > 0 → print "Positive"
+2.	Elif number < 0 → print "Negative"
+3.	Else → print "Zero"
+4.	Use shorthand if to print "Even" or "Odd"
+5.	Use nested if to check range (0–100 range)
+6.	Use logical operators (and, or, not)
+7.	Use pass inside an unused block
+8.	Use match to print day name (1–7)
+Task 8 — 
+1.	Print numbers 1 to 20 using a while loop
+2.	Print only even numbers using a for loop
+3.	Loop through a list and break at "stop"
+4.	Use continue to skip "skip"
+5.	Create a list of squares using list comprehension
+6.	Use nested loops to print a multiplication table (1–5)
+
+Task 9 — Functions Task (args, kwargs, lambda, recursion, generators)
+Write the following functions:
+1.	Normal function that prints "Hello"
+2.	Function with arguments:
+3.	def info(name, age)
+4.	*args function: sum all numbers
+5.	**kwargs function: print key–value pairs
+6.	Function demonstrating local vs global scope
+7.	Lambda function to compute square
+8.	Recursive function for factorial
+9.	Generator that yields numbers 1 to 5
+
+Full Mixed Mini Project
+Task 10 — 
+Write a small script that uses:
+Strings
+– Format a message: "Student {} scored {}%"
+Lists
+– Store 5 marks
+– Remove the lowest
+– Add a bonus mark
+Tuples
+– Store (name, roll, department)
+Sets
+– Store unique course codes, add new codes
+Dictionaries
+– Store student info with nested "marks" and "courses"
+Loops
+– Calculate average using loops
+Operators
+– Use arithmetic, comparison, and logical operators
+Functions
+– Write a function to return grade based on average
+– Use a lambda to check pass/fail
+
